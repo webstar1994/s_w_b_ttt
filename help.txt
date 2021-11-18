@@ -1,0 +1,103 @@
+// let web3_bsc_provider = new Web3.providers.WebsocketProvider(bscURL);
+// const web3_bsc = new Web3(web3_bsc_provider);
+
+// web3_bsc.eth.net.isListening()
+//    .then(() => {
+//        console.log('BSC connected');
+//        startBot();
+//    })
+//    .catch(e => console.log('Sorry something wrong '+ e));
+
+{
+  address: '0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73',
+  blockNumber: 12584533,
+  transactionHash: '0x9aefdcc8b60588c671ac38ebfb395a8f2a58ccb1f87653131ec5017ad57f1902',
+  transactionIndex: 519,
+  blockHash: '0x1d04662668be14188bda2807497746a9bd1f3d394d6d4a9bce93027cacd51f10',
+  logIndex: 551,
+  removed: false,
+  id: 'log_3a66d8bd',
+  returnValues: Result {
+    '0': '0x5d026A4C7f0CAED4a9c3EFCCC8Efe25cEb095374',
+    '1': '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
+    '2': '0x717133b49B1228F9a741266aBF215f0cF3Ca2B18',
+    '3': '536324',
+    token0: '0x5d026A4C7f0CAED4a9c3EFCCC8Efe25cEb095374',
+    token1: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
+    pair: '0x717133b49B1228F9a741266aBF215f0cF3Ca2B18'
+  },
+  event: 'PairCreated',
+  signature: '0x0d3648bd0f6ba80134a33ba9275ac585d9d315f0ad8355cddefde31afa28d0e9',
+  raw: {
+    data: '0x000000000000000000000000717133b49b1228f9a741266abf215f0cf3ca2b180000000000000000000000000000000000000000000000000000000000082f04',
+    topics: [
+      '0x0d3648bd0f6ba80134a33ba9275ac585d9d315f0ad8355cddefde31afa28d0e9',
+      '0x0000000000000000000000005d026a4c7f0caed4a9c3efccc8efe25ceb095374',
+      '0x000000000000000000000000bb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c'
+    ]
+  }
+}
+methods: {
+    allowance: [Function: bound _createTxObject],
+    '0xdd62ed3e': [Function: bound _createTxObject],
+    'allowance(address,address)': [Function: bound _createTxObject],
+    approve: [Function: bound _createTxObject],
+    '0x095ea7b3': [Function: bound _createTxObject],
+    'approve(address,uint256)': [Function: bound _createTxObject],
+    balanceOf: [Function: bound _createTxObject],
+    '0x70a08231': [Function: bound _createTxObject],
+    'balanceOf(address)': [Function: bound _createTxObject],
+    decimals: [Function: bound _createTxObject],
+    '0x313ce567': [Function: bound _createTxObject],
+    'decimals()': [Function: bound _createTxObject],
+    getOwner: [Function: bound _createTxObject],
+    '0x893d20e8': [Function: bound _createTxObject],
+    'getOwner()': [Function: bound _createTxObject],
+    name: [Function: bound _createTxObject],
+    '0x06fdde03': [Function: bound _createTxObject],
+    'name()': [Function: bound _createTxObject],
+    symbol: [Function: bound _createTxObject],
+    '0x95d89b41': [Function: bound _createTxObject],
+    'symbol()': [Function: bound _createTxObject],
+    totalSupply: [Function: bound _createTxObject],
+    '0x18160ddd': [Function: bound _createTxObject],
+    'totalSupply()': [Function: bound _createTxObject],
+    transfer: [Function: bound _createTxObject],
+    '0xa9059cbb': [Function: bound _createTxObject],
+    'transfer(address,uint256)': [Function: bound _createTxObject],
+    transferFrom: [Function: bound _createTxObject],
+    '0x23b872dd': [Function: bound _createTxObject],
+    'transferFrom(address,address,uint256)': [Function: bound _createTxObject]
+  },
+
+  //web 3 wallet added
+  {
+  address: '0xb8CE9ab6943e0eCED004cDe8e3bBed6568B2Fa01',
+  privateKey: '0x348ce564d427a3311b6536bbcff9390d69395b06ed6c486954e971d960fe8709',
+  signTransaction: [Function: signTransaction],
+  sign: [Function: sign],
+  encrypt: [Function: encrypt],
+  index: 0
+}
+ //bsc scan Result
+ {
+  status: '1',
+  message: 'OK',
+  result: [
+    {
+      SourceCode: '',
+      ABI: 'Contract source code not verified',
+      ContractName: '',
+      CompilerVersion: '',
+      OptimizationUsed: '',
+      Runs: '',
+      ConstructorArguments: '',
+      EVMVersion: 'Default',
+      Library: '',
+      LicenseType: 'Unknown',
+      Proxy: '0',
+      Implementation: '',
+      SwarmSource: ''
+    }
+  ]
+}
